@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import {Link as ScrollLink, Element} from "react-scroll"
-import { AnimatedShinyTextDemo } from "../components/demos/animated-shiny-text-demo";  // Correct path here
+import { AnimatedShinyTextDemo } from "../components/demos/animated-shiny-text-demo"; 
 import { CoverDemo } from "@/components/demos/cover-demo";
 import BoxReveal from "@/components/ui/box-reveal";
 import { PiCheckBold } from "react-icons/pi";
