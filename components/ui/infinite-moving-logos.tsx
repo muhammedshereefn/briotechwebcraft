@@ -22,7 +22,8 @@ export const InfiniteMovingLogos = ({
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
 
-  const addAnimation = () => {
+  // Define addAnimation as a useCallback hook to avoid creating a new function on every render
+  const addAnimation = React.useCallback(() => {
     if (scrollerRef.current) {
       const scrollerWidth = scrollerRef.current.scrollWidth;
       const containerWidth = containerRef.current?.offsetWidth || 0;
@@ -39,12 +40,12 @@ export const InfiniteMovingLogos = ({
       setDirection();
       setSpeed();
     }
-  };
+  }, [direction, speed]); // Add direction and speed to dependencies
 
   // Ensure this runs only once on mount
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, [addAnimation]); // Add addAnimation to dependencies
 
   const setDirection = () => {
     if (containerRef.current) {
