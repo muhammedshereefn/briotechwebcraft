@@ -5,7 +5,6 @@ import type { Container } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 import { cn } from "@/lib/utils";
 import { motion, useAnimation } from "framer-motion";
-import type { IResizeEvent } from "@tsparticles/engine"; 
 
 type ParticlesProps = {
   id?: string;
@@ -82,9 +81,9 @@ export const SparklesCore = (props: ParticlesProps) => {
                   mode: "repulse",
                 },
                 resize: {
-                  enable: true, // Set to true to allow resizing
+                  enable: true,
                   duration: 1,  // Optionally set duration for resizing
-                } as Partial<IResizeEvent>, // Type assertion
+                } as { enable: boolean; duration: number }, // Change type assertion to a more explicit type
               },
               modes: {
                 push: {
