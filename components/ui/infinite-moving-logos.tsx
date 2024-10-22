@@ -22,11 +22,6 @@ export const InfiniteMovingLogos = ({
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
 
-  // Ensure this runs only once on mount
-  useEffect(() => {
-    addAnimation();
-  }, []);
-
   const addAnimation = () => {
     if (scrollerRef.current) {
       const scrollerWidth = scrollerRef.current.scrollWidth;
@@ -45,6 +40,11 @@ export const InfiniteMovingLogos = ({
       setSpeed();
     }
   };
+
+  // Ensure this runs only once on mount
+  useEffect(() => {
+    addAnimation();
+  }, []);
 
   const setDirection = () => {
     if (containerRef.current) {
