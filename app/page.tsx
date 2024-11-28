@@ -15,6 +15,7 @@ import { AnimatedBeamMultipleOutputDemo } from "@/components/demos/animated-beam
 import BoxRevealDemo from "@/components/demos/box-reveal-demo";
 import { IconStarFilled } from "@tabler/icons-react";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 
 const services = [
@@ -71,6 +72,43 @@ export default function Home() {
        xl:w-4/5 2xl:w-[68%] bg-white flex items-center justify-between
         py-6 px-4 md:px-8 mx-6"
         >
+
+<div
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          backgroundColor: "#000",
+          color: "#fff",
+          borderRadius: "12px",
+          padding: "10px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-around",
+          width: "120px",
+          height: "60px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+          zIndex: 1000,
+        }}
+      >
+        <a
+          href="https://wa.me/7591902596"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "#fff" }}
+        >
+          <FaWhatsapp size={24} />
+        </a>
+        <a
+          href="https://www.instagram.com/briotechwebcraft/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "#fff" }}
+        >
+          <FaInstagram size={24} />
+        </a>
+      </div>
+
 <Link href={"/"}>
   <div className="text-center">
     <span className="text-2xl font-bold text-black">BrioTech</span>
@@ -186,7 +224,7 @@ export default function Home() {
         rounded-[6px]
         hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
             >
-              Showcase
+             Our Works
             </Link>
           </div>
 
@@ -229,7 +267,7 @@ export default function Home() {
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={15}/> +
+                    <NumberTicker value={99}/> +
                     <p className="text-gray-500 text-sm md:text-md">Happy clients</p>
                   </h1>
                 </div>
@@ -238,7 +276,7 @@ export default function Home() {
 
                 <div className="flex-1 min-w-0">
                   <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden ">
-                    <NumberTicker value={20}/> +
+                    <NumberTicker value={105}/> +
                     <p className="text-gray-500 text-sm md:text-md">Projects Completed</p>
                   </h1>
                 </div>
@@ -350,15 +388,15 @@ export default function Home() {
                <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/images/ceoimage.jpeg"}
+            src={"/images/office.jpg"}
             width={10000}
             height={10000}
-            className=" md:w-1/3 rounded-full"
+            className=" md:w-1/3 rounded-2xl"
             alt="image"
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl ">
-              &quot;Hi, I’m the Founder of BrioTech WebCraft. We specialize in helping businesses thrive in the digital landscape. Our dedicated team focuses on delivering tailored solutions that drive growth and maximize your online presence. Let us partner with you to achieve your business goals! &quot;
+            <h1 className="text-lg md:text-lg ">
+              BrioTech WebCraft is a Kerala-based web development agency committed to elevating your online presence. We offer affordable website development and design services, tailored to meet the unique needs of business owners. Our goal is to help your business thrive in the digital world. Let’s work together to bring your vision to life! 
             </h1>
             <div className="flex items-center gap-x-1">
               <IconStarFilled className="text-4xl text-yellow-500" />
