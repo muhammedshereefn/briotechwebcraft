@@ -3,48 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 const works = [
+
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/6xoo.png",
+    title: "6XO BAGS STORE",
+    link: "https://6xobags.com",
+  },
   {
     background: "bg-gray-200",
     imageUrl: "/images/a2z.png",
     title: "A2Z JUICES",
     link: "https://a2z-juices.onrender.com/",
-  },
-  
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/aliresto.png",
-    title: "ALI Restaurant",
-    link: "https://alicafe.onrender.com/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/jersy.png",
-    title: "ASSIST E-Commerce",
-    link: "https://assist-store.onrender.com/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/harwa.png",
-    title: "Harwa Perfumes",
-    link: "https://harwa.shop/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/ecom.png",
-    title: "F-Store Clothings",
-    link: "https://f-store-ecommerce.onrender.com/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/find.png",
-    title: "BROSTEL",
-    link: "https://hostelspotter-frontend.vercel.app/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/watchvogue.png",
-    title: "WatchVogue",
-    link: "https://www.watchvogue.site/",
   },
 ];
 export function BlurFadeDemo() {
