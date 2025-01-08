@@ -3,6 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const works = [
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/loviz.png",
+    title: "LOVIZ CLOTH'S",
+    link: "https://loviz.in",
+  },
 
   {
     background: "bg-gray-200",
