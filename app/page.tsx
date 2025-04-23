@@ -396,7 +396,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-lg ">
-              BrioTech WebCraft is a Kerala-based web development agency committed to elevating your online presence. We offer affordable website development and design services, tailored to meet the unique needs of business owners. Our goal is to help your business thrive in the digital world. Let’s work together to bring your vision to life! 
+              Fedgix Technologies is a Kerala-based web development Company committed to elevating your online presence. We offer affordable website development and design services, tailored to meet the unique needs of business owners. Our goal is to help your business thrive in the digital world. Let’s work together to bring your vision to life! 
             </h1>
             <div className="flex items-center gap-x-1">
               <IconStarFilled className="text-4xl text-yellow-500" />
@@ -408,7 +408,7 @@ export default function Home() {
 
             <span className="text-xl font-medium">
               Muhammed Shereef <br />
-              CEO, BrioTech WebCraft
+              CEO, Fedgix Technologies
             </span>
           </div>
         </main>
@@ -431,12 +431,12 @@ export default function Home() {
           </h1>
           <p className="text-left  text-lg  text-gray-500">+91 7591902596</p>
           <p className="text-left  text-lg  text-gray-500">
-            briotechwebcraft@gmail.com
+            fedgixtechnologies@gmail.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 BrioTech WebCraft. All Rights Reserved.
+          © 2025 Fedgix Technologies. All Rights Reserved.
          
         </div>
       </footer>
