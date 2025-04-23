@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "BrioTech WebCraft",
-  description: "Grow your business with briotech webcraft. an web development",
+  title: "Fedgix Technologies",
+  description: "Grow your business with Fedgix Technologies. an web development",
 };
 
 export default function RootLayout({

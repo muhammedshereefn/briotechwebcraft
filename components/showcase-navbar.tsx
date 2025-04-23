@@ -31,8 +31,8 @@ xl:w-4/5
     >
 <Link href={"/"}>
   <div className="text-center">
-    <span className="text-2xl font-bold text-black">BrioTech</span>
-    <span className="block text-sm text-gray-500 tracking-wider mt-[-2px]">WebCraft</span>
+    <span className="text-2xl font-bold text-black">Fedgix</span>
+    <span className="block text-sm text-gray-500 tracking-wider mt-[-2px]">Technologies</span>
   </div>
 </Link>
 

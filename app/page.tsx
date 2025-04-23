@@ -100,7 +100,7 @@ export default function Home() {
           <FaWhatsapp size={24} />
         </a>
         <a
-          href="https://www.instagram.com/briotechwebcraft/"
+          href="https://www.instagram.com/fedgix/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: "none", color: "#fff" }}
@@ -111,8 +111,8 @@ export default function Home() {
 
 <Link href={"/"}>
   <div className="text-center">
-    <span className="text-2xl font-bold text-black">BrioTech</span>
-    <span className="block text-sm text-gray-500 tracking-wider mt-[-2px]">WebCraft</span>
+    <span className="text-2xl font-bold text-black">FEDGIX</span>
+    <span className="block text-sm text-gray-500 tracking-wider mt-[-2px]">Technologies</span>
   </div>
 </Link>
 
@@ -121,7 +121,7 @@ export default function Home() {
       <div className="absolute right-1/2 translate-x-1/2 transform">
       <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
         <Link href={'/showcase'} className="hover:text-blue-500">
-        Showcase
+        Portfolio
         </Link>
 
         <ScrollLink 
@@ -224,7 +224,7 @@ export default function Home() {
         rounded-[6px]
         hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
             >
-             Our Works
+             PORTFOLIO
             </Link>
           </div>
 

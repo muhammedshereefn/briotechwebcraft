@@ -22,6 +22,24 @@ const works = [
     title: "A2Z JUICES",
     link: "https://a2z-juices.onrender.com/",
   },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/kvm.png",
+    title: "KVM AQUATICS",
+    link: "https://kvmaqua.onrender.com/",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/rust.png",
+    title: "Therustdoor Artist",
+    link: "https://therustdoor.onrender.com/",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/bafkhana.png",
+    title: "Bafkhana Cuisine",
+    link: "https://bafkhana.vercel.app/",
+  },
 ];
 export function BlurFadeDemo() {
   return (

@@ -15,13 +15,11 @@ const Showcase = () => {
         <div className="flex items-center justify-center relative">
           <WordFadeIn
             className="text-3xl pt-20 lg:text-5xl font-semibold max-w-3xl mx-auto md:text-center z-20"
-            words="Design & Develope That Helps Your Business Grow"
+            words="Have a look at some of our recent works"
           />
         </div>
 
-        <p className="md:text-center text-xl md:text-2xl my-6 md:w-4/5 mx-auto text-gray-500">
-          Have a look at some of our recent works
-        </p>
+        
 
         <BlurFadeDemo />
 
@@ -35,12 +33,12 @@ const Showcase = () => {
           </h1>
           <p className="text-left  text-lg  text-gray-500">+91 7591902596</p>
           <p className="text-left  text-lg  text-gray-500">
-            briotechwebcraft@gmail.com
+            fedgixtechnologies@gmail.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 BrioTech WebCraft. All Rights Reserved.
+          © 2025 Fedgix Technologies. All Rights Reserved.
           
         </div>
       </footer>
