@@ -56,13 +56,7 @@ export function AnimatedBeamMultipleOutputDemo({
             <Icons.googleDocs />
           </Circle>
           <Circle ref={div3Ref}>
-          <Image
-              src={"/logo/figma.png"}
-              width={10000}
-              height={10000}
-              className="w-6 h-6"
-              alt="image"
-            />
+          
           </Circle>
           <Circle ref={div4Ref}>
             <Icons.messenger />
